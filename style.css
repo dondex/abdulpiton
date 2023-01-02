@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+.nav-link {
+  color: #000;
+}
+
+/* featured categories */
+.category img {
+  filter: brightness(0.4);
+  cursor: pointer;
+}
+.category img:hover {
+  filter: brightness(0.9);
+}
+.category-title1 {
+  color: #fff;
+  position: absolute;
+  top: 83%;
+  left: 18%;
+}
+.category-title2 {
+  color: #fff;
+  position: absolute;
+  top: 83%;
+  left: 35%;
+}
+
+.category-title3 {
+  color: #fff;
+  position: absolute;
+  top: 83%;
+  left: 51%;
+}
+.category-title4 {
+  color: #fff;
+  position: absolute;
+  top: 83%;
+  left: 70%;
+}
+
+/* Property */
+.card {
+  border: none;
+  cursor: pointer;
+}
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}

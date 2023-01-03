@@ -3,12 +3,6 @@
   margin: 0;
   box-sizing: border-box;
 }
-body {
-  overflow-x: hidden;
-  width: 100%;
-  max-width: 100%;
-  min-width: 100%;
-}
 
 /* Header */
 .nav-link {
@@ -38,6 +32,13 @@ body {
 @media (max-width: 341px) {
   .top-red {
     font-size: 8px;
+  }
+}
+/* auth btn */
+@media (max-width: 991.98px) {
+  .auth-btn {
+    display: flex;
+    flex-direction: column;
   }
 }
 /* featured categories */
@@ -134,14 +135,14 @@ body {
   .category-title1 {
     color: #fff;
     position: absolute;
-    top: 58%;
-    left: 15%;
+    top: 85%;
+    left: 16%;
     font-size: 10px;
   }
   .category-title2 {
     color: #fff;
     position: absolute;
-    top: 58%;
+    top: 85%;
     left: 35%;
     font-size: 10px;
   }
@@ -149,15 +150,15 @@ body {
   .category-title3 {
     color: #fff;
     position: absolute;
-    top: 58%;
+    top: 85%;
     left: 52%;
     font-size: 10px;
   }
   .category-title4 {
     color: #fff;
     position: absolute;
-    top: 58%;
-    left: 75%;
+    top: 85%;
+    left: 71%;
     font-size: 10px;
   }
 }
@@ -201,4 +202,11 @@ body {
 .card:hover {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
 }

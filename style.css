@@ -49,30 +49,33 @@
 .category img:hover {
   filter: brightness(0.9);
 }
+.category {
+  position: relative;
+}
 .category-title1 {
   color: #fff;
   position: absolute;
-  top: 90%;
-  left: 11%;
+  top: 70%;
+  left: 4%;
 }
 .category-title2 {
   color: #fff;
   position: absolute;
-  top: 90%;
-  left: 32%;
+  top: 70%;
+  left: 29%;
 }
 
 .category-title3 {
   color: #fff;
   position: absolute;
-  top: 90%;
-  left: 52%;
+  top: 70%;
+  left: 54%;
 }
 .category-title4 {
   color: #fff;
   position: absolute;
-  top: 90%;
-  left: 73%;
+  top: 70%;
+  left: 78%;
 }
 
 /* Media Query of category features */
@@ -80,54 +83,54 @@
   .category-title1 {
     color: #fff;
     position: absolute;
-    top: 80%;
-    left: 12%;
+    top: 65%;
+    left: 4%;
   }
   .category-title2 {
     color: #fff;
     position: absolute;
-    top: 80%;
-    left: 32%;
+    top: 65%;
+    left: 29%;
   }
 
   .category-title3 {
     color: #fff;
     position: absolute;
-    top: 80%;
-    left: 52%;
+    top: 65%;
+    left: 53%;
   }
   .category-title4 {
     color: #fff;
     position: absolute;
-    top: 80%;
-    left: 75%;
+    top: 65%;
+    left: 78%;
   }
 }
 @media (max-width: 1199.98px) {
   .category-title1 {
     color: #fff;
     position: absolute;
-    top: 70%;
-    left: 10%;
+    top: 60%;
+    left: 4%;
   }
   .category-title2 {
     color: #fff;
     position: absolute;
-    top: 70%;
-    left: 32%;
+    top: 60%;
+    left: 29%;
   }
 
   .category-title3 {
     color: #fff;
     position: absolute;
-    top: 70%;
-    left: 52%;
+    top: 60%;
+    left: 53%;
   }
   .category-title4 {
     color: #fff;
     position: absolute;
-    top: 70%;
-    left: 76%;
+    top: 60%;
+    left: 78%;
   }
 }
 
@@ -135,30 +138,30 @@
   .category-title1 {
     color: #fff;
     position: absolute;
-    top: 58%;
-    left: 16%;
+    top: 50%;
+    left: 4%;
     font-size: 10px;
   }
   .category-title2 {
     color: #fff;
     position: absolute;
-    top: 58%;
-    left: 35%;
+    top: 50%;
+    left: 29%;
     font-size: 10px;
   }
 
   .category-title3 {
     color: #fff;
     position: absolute;
-    top: 58%;
-    left: 52%;
+    top: 50%;
+    left: 53%;
     font-size: 10px;
   }
   .category-title4 {
     color: #fff;
     position: absolute;
-    top: 58%;
-    left: 71%;
+    top: 50%;
+    left: 78%;
     font-size: 10px;
   }
 }
@@ -167,14 +170,14 @@
     color: #fff;
     position: absolute;
     top: 48%;
-    left: 16%;
+    left: 4%;
     font-size: 10px;
   }
   .category-title2 {
     color: #fff;
     position: absolute;
     top: 48%;
-    left: 35%;
+    left: 29%;
     font-size: 10px;
   }
 
@@ -182,14 +185,14 @@
     color: #fff;
     position: absolute;
     top: 48%;
-    left: 52%;
+    left: 53%;
     font-size: 10px;
   }
   .category-title4 {
     color: #fff;
     position: absolute;
     top: 48%;
-    left: 71%;
+    left: 78%;
     font-size: 10px;
   }
 }
@@ -198,14 +201,14 @@
   .category-title1 {
     color: #fff;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 5%;
     font-size: 10px;
   }
   .category-title2 {
     color: #fff;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 30%;
     font-size: 10px;
   }
@@ -213,24 +216,54 @@
   .category-title3 {
     color: #fff;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 54%;
     font-size: 10px;
   }
   .category-title4 {
     color: #fff;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 80%;
     font-size: 10px;
   }
 }
-
-@media (max-width: 375px) {
+@media (max-width: 500px) {
   .category-title1 {
     color: #fff;
     position: absolute;
-    top: 53%;
+    top: 35%;
+    left: 4%;
+    font-size: 10px;
+  }
+  .category-title2 {
+    color: #fff;
+    position: absolute;
+    top: 35%;
+    left: 29%;
+    font-size: 10px;
+  }
+
+  .category-title3 {
+    color: #fff;
+    position: absolute;
+    top: 35%;
+    left: 53%;
+    font-size: 10px;
+  }
+  .category-title4 {
+    color: #fff;
+    position: absolute;
+    top: 35%;
+    left: 79%;
+    font-size: 10px;
+  }
+}
+@media (max-width: 450px) {
+  .category-title1 {
+    color: #fff;
+    position: absolute;
+    top: 35%;
     left: 5%;
     font-size: 7px;
   }
@@ -240,7 +273,7 @@
   .category-title2 {
     color: #fff;
     position: absolute;
-    top: 53%;
+    top: 35%;
     left: 30%;
     font-size: 7px;
   }
@@ -251,7 +284,7 @@
   .category-title3 {
     color: #fff;
     position: absolute;
-    top: 53%;
+    top: 35%;
     left: 54%;
     font-size: 7px;
   }
@@ -261,7 +294,51 @@
   .category-title4 {
     color: #fff;
     position: absolute;
-    top: 53%;
+    top: 35%;
+    left: 80%;
+    font-size: 7px;
+  }
+  .category-title4 .h4-fw {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 375px) {
+  .category-title1 {
+    color: #fff;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    font-size: 7px;
+  }
+  .category-title1 .h4-fw {
+    font-size: 10px;
+  }
+  .category-title2 {
+    color: #fff;
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    font-size: 7px;
+  }
+  .category-title2 .h4-fw {
+    font-size: 10px;
+  }
+
+  .category-title3 {
+    color: #fff;
+    position: absolute;
+    top: 35%;
+    left: 54%;
+    font-size: 7px;
+  }
+  .category-title3 .h4-fw {
+    font-size: 10px;
+  }
+  .category-title4 {
+    color: #fff;
+    position: absolute;
+    top: 35%;
     left: 80%;
     font-size: 7px;
   }

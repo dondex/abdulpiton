@@ -333,6 +333,7 @@
   max-width: 1400px;
   position: relative;
   overflow: hidden;
+  padding: 20px;
 }
 
 #slider-container .btn-slide {
@@ -409,7 +410,7 @@
 
 @media only screen and (max-width: 550px) {
   #slider-container #slider .slide {
-    width: calc(5% - 20px);
+    width: calc(6% - 20px);
   }
 }
 

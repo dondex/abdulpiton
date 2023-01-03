@@ -3,6 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  width: 100vw;
+}
 
 /* Header */
 .nav-link {
@@ -20,27 +23,115 @@
 .category-title1 {
   color: #fff;
   position: absolute;
-  top: 83%;
-  left: 18%;
+  top: 90%;
+  left: 11%;
 }
 .category-title2 {
   color: #fff;
   position: absolute;
-  top: 83%;
-  left: 35%;
+  top: 90%;
+  left: 32%;
 }
 
 .category-title3 {
   color: #fff;
   position: absolute;
-  top: 83%;
-  left: 51%;
+  top: 90%;
+  left: 52%;
 }
 .category-title4 {
   color: #fff;
   position: absolute;
-  top: 83%;
-  left: 70%;
+  top: 90%;
+  left: 73%;
+}
+
+/* Media Query of category features */
+@media (max-width: 1399.98px) {
+  .category-title1 {
+    color: #fff;
+    position: absolute;
+    top: 80%;
+    left: 12%;
+  }
+  .category-title2 {
+    color: #fff;
+    position: absolute;
+    top: 80%;
+    left: 32%;
+  }
+
+  .category-title3 {
+    color: #fff;
+    position: absolute;
+    top: 80%;
+    left: 52%;
+  }
+  .category-title4 {
+    color: #fff;
+    position: absolute;
+    top: 80%;
+    left: 75%;
+  }
+}
+@media (max-width: 1199.98px) {
+  .category-title1 {
+    color: #fff;
+    position: absolute;
+    top: 70%;
+    left: 10%;
+  }
+  .category-title2 {
+    color: #fff;
+    position: absolute;
+    top: 70%;
+    left: 32%;
+  }
+
+  .category-title3 {
+    color: #fff;
+    position: absolute;
+    top: 70%;
+    left: 52%;
+  }
+  .category-title4 {
+    color: #fff;
+    position: absolute;
+    top: 70%;
+    left: 76%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .category-title1 {
+    color: #fff;
+    position: absolute;
+    top: 58%;
+    left: 15%;
+    font-size: 10px;
+  }
+  .category-title2 {
+    color: #fff;
+    position: absolute;
+    top: 58%;
+    left: 35%;
+    font-size: 10px;
+  }
+
+  .category-title3 {
+    color: #fff;
+    position: absolute;
+    top: 58%;
+    left: 52%;
+    font-size: 10px;
+  }
+  .category-title4 {
+    color: #fff;
+    position: absolute;
+    top: 58%;
+    left: 75%;
+    font-size: 10px;
+  }
 }
 
 /* Property */

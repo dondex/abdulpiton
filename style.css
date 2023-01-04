@@ -330,6 +330,7 @@
 }
 
 #slider-container {
+  width: 80vw;
   max-width: 1400px;
   position: relative;
   overflow: hidden;

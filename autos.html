@@ -58,7 +58,7 @@
       <div class="container">
         <nav class="navbar navbar-expand-lg bg-light">
           <div class="container-fluid">
-            <a class="navbar-brand fw-bold" href="#">AbdulPiton</a>
+            <a class="navbar-brand fw-bold" href="/index.html">AbdulPiton</a>
             <button
               class="navbar-toggler"
               type="button"
@@ -87,7 +87,7 @@
                   <a class="nav-link" href="./gadgets.html">Gadgets</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./fashion.html">Fashion</a>
+                  <a class="nav-link" href="./fashion.html">Fashions</a>
                 </li>
                 <li class="nav-item"></li>
               </ul>
@@ -111,799 +111,77 @@
         </nav>
       </div>
 
-      <div class="container">
+      <!-- <div class="container">
         <div class="row">
           <img class="img-fluid rounded" src="./image/banner2.png" alt="" />
         </div>
-      </div>
+      </div> -->
     </header>
 
-    <section id="featured-categories">
-      <div class="container mb-5">
-        <div class="row my-3">
-          <h3>Featured Categories</h3>
+    <section id="category-filter">
+      <div class="container bg-light">
+        <div class="row">
+          <div>
+            <h3>Autos ></h3>
+          </div>
         </div>
-        <div class="row category">
-          <div class="col-lg-3 col-md-3 col-sm-6 col-6 my-2">
-            <a href="./categoryview.html"
-              ><img class="img-fluid rounded" src="./image/property.jpg" alt=""
-            /></a>
-            <div class="d-flex flex-column category-title1">
-              <h4 class="fw-bold h4-fw">Property</h4>
-              <span>100,000+ listings</span>
+        <div class="container bg-white w-75 py-3 my-3">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-12">
+              <ul class="" style="list-style-type: none">
+                <li><a href="">Sale</a></li>
+                <li><a href="">Rent</a></li>
+                <li><a href="">Brandnew</a></li>
+                <li><a href="">Secondhand</a></li>
+              </ul>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-6 col-6 my-2">
-            <a href="./autos.html"
-              ><img class="img-fluid rounded" src="./image/car.jpg" alt=""
-            /></a>
-            <div class="d-flex flex-column category-title2">
-              <h4 class="fw-bold h4-fw">Autos</h4>
-              <span>7,000+ listings</span>
+            <div class="col-lg-3 col-md-3 col-sm-12">
+              <ul class="" style="list-style-type: none">
+                <li><a href="">Honda</a></li>
+                <li><a href="">Mitsubishi</a></li>
+                <li><a href="">Toyota</a></li>
+                <li><a href="">Ferrari</a></li>
+              </ul>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-6 col-6 my-2">
-            <a href="./gadgets.html"
-              ><img class="img-fluid rounded" src="./image/mobile.jpg" alt=""
-            /></a>
-            <div class="d-flex flex-column category-title3">
-              <h4 class="fw-bold h4-fw">Gadgets</h4>
-              <span>100,000+ listings</span>
+            <div class="col-lg-3 col-md-3 col-sm-12">
+              <ul class="" style="list-style-type: none">
+                <li><a href="">Truck</a></li>
+                <li><a href="">Jeepney</a></li>
+                <li><a href="">Nissan</a></li>
+                <li><a href="">Ford</a></li>
+              </ul>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-6 col-6 my-2">
-            <a href="./fashion.html"
-              ><img class="img-fluid rounded" src="./image/fashion.jpg" alt=""
-            /></a>
-            <div class="d-flex flex-column category-title4">
-              <h4 class="fw-bold h4-fw">Fashion</h4>
-              <span>100,000+ listings</span>
+            <div class="col-lg-3 col-md-3 col-sm-12">
+              <ul class="" style="list-style-type: none">
+                <li><a href="">Mercedes-Benz</a></li>
+                <li><a href="">Hyundai</a></li>
+                <li><a href="">Audi</a></li>
+                <li><a href="">Volkswagen</a></li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="property-features">
+    <section id="category-body">
       <div class="container">
-        <div class="row my-3">
-          <hr style="border: 2px solid red" />
-          <div class="d-flex justify-content-between">
-            <h3>Properties</h3>
-            <div
-              style="cursor: pointer"
-              class="d-flex flex-row align-items-center text-danger"
-            >
-              <h6 class="mx-2 mt-1">
-                <a href="./categoryview.html">view all</a>
-              </h6>
-              <i class="fa-solid fa-arrow-right"></i>
+        <div class="row mt-5">
+          <div class="col-lg-6 col-sm-12">
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="search..."
+                aria-describedby="basic-addon2"
+              />
+              <span class="input-group-text btn btn-danger" id="basic-addon2"
+                >Search</span
+              >
             </div>
           </div>
         </div>
 
-        <div class="row">
-          <div>
-            <button class="btn btn-outline-danger active px-4 my-1">
-              Rent
-            </button>
-            <button class="btn btn-outline-danger px-4 my-1">Sale</button>
-            <button class="btn btn-outline-danger px-4 my-1">
-              Condominium
-            </button>
-            <button class="btn btn-outline-danger px-4 my-1">
-              Residential
-            </button>
-            <button class="btn btn-outline-danger px-4 my-1">Commercial</button>
-          </div>
-        </div>
-        <div class="row my-4">
-          <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 my-2">
-            <div class="card rounded" style="width: 100%">
-              <img
-                style="height: 220px"
-                src="./image/prop1.jpg"
-                class="card-img-top img-fluid"
-                alt=""
-              />
-              <div class="card-body">
-                <h5 class="card-title">SR 4,600</h5>
-                <p class="card-text">8 ADRIATICO fully furnished studio</p>
-                <div
-                  class="mt-2 d-flex flex-row justify-content-evenly align-items-center"
-                >
-                  <img
-                    style="width: 50px"
-                    class="rounded-circle img-fluid"
-                    src="./image/profile.png"
-                    alt=""
-                  />
-                  <div class="mx-2">
-                    <span style="font-size: 15px" class="fw-bold"
-                      >Dondex_Chavez</span
-                    >
-                    <div>
-                      <i
-                        style="font-size: 12px"
-                        class="fa-solid fa-user text-danger"
-                      ></i>
-                      <span class="text-danger" style="font-size: 12px"
-                        >30 minutes ago</span
-                      >
-                    </div>
-                  </div>
-                  <a href="#" class="btn btn-danger ms-auto">Message</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 my-2">
-            <div class="card rounded" style="width: 100%">
-              <img
-                style="height: 220px"
-                src="./image/prop2.jpg"
-                class="card-img-top img-fluid"
-                alt=""
-              />
-              <div class="card-body">
-                <h5 class="card-title">SR 4,600</h5>
-                <p class="card-text">8 ADRIATICO fully furnished studio</p>
-                <div
-                  class="mt-2 d-flex flex-row justify-content-evenly align-items-center"
-                >
-                  <img
-                    style="width: 50px"
-                    class="rounded-circle img-fluid"
-                    src="./image/profile.png"
-                    alt=""
-                  />
-                  <div class="mx-2">
-                    <span style="font-size: 15px" class="fw-bold"
-                      >Dondex_Chavez</span
-                    >
-                    <div>
-                      <i
-                        style="font-size: 12px"
-                        class="fa-solid fa-user text-danger"
-                      ></i>
-                      <span class="text-danger" style="font-size: 12px"
-                        >30 minutes ago</span
-                      >
-                    </div>
-                  </div>
-                  <a href="#" class="btn btn-danger ms-auto">Message</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 my-2">
-            <div class="card rounded" style="width: 100%">
-              <img
-                style="height: 220px"
-                src="./image/prop3.jpg"
-                class="card-img-top img-fluid"
-                alt=""
-              />
-              <div class="card-body">
-                <h5 class="card-title">SR 3,200</h5>
-                <p class="card-text">8 ADRIATICO fully furnished studio</p>
-                <div
-                  class="mt-2 d-flex flex-row justify-content-evenly align-items-center"
-                >
-                  <img
-                    style="width: 50px"
-                    class="rounded-circle img-fluid"
-                    src="./image/profile.png"
-                    alt=""
-                  />
-                  <div class="mx-2">
-                    <span style="font-size: 15px" class="fw-bold"
-                      >Dondex_Chavez</span
-                    >
-                    <div>
-                      <i
-                        style="font-size: 12px"
-                        class="fa-solid fa-user text-danger"
-                      ></i>
-                      <span class="text-danger" style="font-size: 12px"
-                        >30 minutes ago</span
-                      >
-                    </div>
-                  </div>
-                  <a href="#" class="btn btn-danger ms-auto">Message</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 my-2">
-            <div class="card rounded" style="width: 100%">
-              <img
-                style="height: 220px"
-                src="./image/prop4.jpg"
-                class="card-img-top img-fluid"
-                alt=""
-              />
-              <div class="card-body">
-                <h5 class="card-title">SR 1,500</h5>
-                <p class="card-text">8 ADRIATICO fully furnished studio</p>
-                <div
-                  class="mt-2 d-flex flex-row justify-content-evenly align-items-center"
-                >
-                  <img
-                    style="width: 50px"
-                    class="rounded-circle img-fluid"
-                    src="./image/profile.png"
-                    alt=""
-                  />
-                  <div class="mx-2">
-                    <span style="font-size: 15px" class="fw-bold"
-                      >Dondex_Chavez</span
-                    >
-                    <div>
-                      <i
-                        style="font-size: 12px"
-                        class="fa-solid fa-user text-danger"
-                      ></i>
-                      <span class="text-danger" style="font-size: 12px"
-                        >30 minutes ago</span
-                      >
-                    </div>
-                  </div>
-                  <a href="#" class="btn btn-danger ms-auto">Message</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- <div class="row my-4">
-          <div id="container">
-            <div id="slider-container">
-              <span onclick="slideRight()" class="btn-slide"></span>
-              <div id="slider">
-                <div class="slide">
-                  <div class="card rounded" style="width: 100%">
-                    <img
-                      style="height: 220px"
-                      src="./image/prop1.jpg"
-                      class="card-img-top img-fluid"
-                      alt=""
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title">SR 4,600</h5>
-                      <p class="card-text">
-                        8 ADRIATICO fully furnished studio
-                      </p>
-                      <div
-                        class="mt-2 d-flex flex-row justify-content-evenly align-items-center"
-                      >
-                        <img
-                          style="width: 40px"
-                          class="rounded-circle img-fluid"
-                          src="./image/profile.png"
-                          alt=""
-                        />
-                        <div class="mx-2">
-                          <span
-                            style="font-size: 12px"
-                            class="text-dark fw-bold"
-                            >Dondex_Chavez</span
-                          >
-                          <div class="time">
-                            <i
-                              style="font-size: 10px"
-                              class="fa-solid fa-user text-danger"
-                            ></i>
-                            <span class="text-danger" style="font-size: 10px"
-                              >30 minutes ago</span
-                            >
-                          </div>
-                        </div>
-                        <a href="#" class="btn btn-danger btn-sm ms-auto"
-                          >Message</a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="slide">
-                  <div class="card rounded" style="width: 100%">
-                    <img
-                      style="height: 220px"
-                      src="./image/prop1.jpg"
-                      class="card-img-top img-fluid"
-                      alt=""
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title">SR 4,600</h5>
-                      <p class="card-text">
-                        8 ADRIATICO fully furnished studio
-                      </p>
-                      <div
-                        class="mt-2 d-flex flex-row justify-content-evenly align-items-center"
-                      >
-                        <img
-                          style="width: 40px"
-                          class="rounded-circle img-fluid"
-                          src="./image/profile.png"
-                          alt=""
-                        />
-                        <div class="mx-2">
-                          <span
-                            style="font-size: 12px"
-                            class="text-dark fw-bold"
-                            >Dondex_Chavez</span
-                          >
-                          <div class="time">
-                            <i
-                              style="font-size: 10px"
-                              class="fa-solid fa-user text-danger"
-                            ></i>
-                            <span class="text-danger" style="font-size: 10px"
-                              >30 minutes ago</span
-                            >
-                          </div>
-                        </div>
-                        <a href="#" class="btn btn-danger btn-sm ms-auto"
-                          >Message</a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="slide">
-                  <div class="card rounded" style="width: 100%">
-                    <img
-                      style="height: 220px"
-                      src="./image/prop1.jpg"
-                      class="card-img-top img-fluid"
-                      alt=""
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title">SR 4,600</h5>
-                      <p class="card-text">
-                        8 ADRIATICO fully furnished studio
-                      </p>
-                      <div
-                        class="mt-2 d-flex flex-row justify-content-evenly align-items-center"
-                      >
-                        <img
-                          style="width: 40px"
-                          class="rounded-circle img-fluid"
-                          src="./image/profile.png"
-                          alt=""
-                        />
-                        <div class="mx-2">
-                          <span
-                            style="font-size: 12px"
-                            class="text-dark fw-bold"
-                            >Dondex_Chavez</span
-                          >
-                          <div class="time">
-                            <i
-                              style="font-size: 10px"
-                              class="fa-solid fa-user text-danger"
-                            ></i>
-                            <span class="text-danger" style="font-size: 10px"
-                              >30 minutes ago</span
-                            >
-                          </div>
-                        </div>
-                        <a href="#" class="btn btn-danger btn-sm ms-auto"
-                          >Message</a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="slide">
-                  <div class="card rounded" style="width: 100%">
-                    <img
-                      style="height: 220px"
-                      src="./image/prop1.jpg"
-                      class="card-img-top img-fluid"
-                      alt=""
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title">SR 4,600</h5>
-                      <p class="card-text">
-                        8 ADRIATICO fully furnished studio
-                      </p>
-                      <div
-                        class="mt-2 d-flex flex-row justify-content-evenly align-items-center"
-                      >
-                        <img
-                          style="width: 40px"
-                          class="rounded-circle img-fluid"
-                          src="./image/profile.png"
-                          alt=""
-                        />
-                        <div class="mx-2">
-                          <span
-                            style="font-size: 12px"
-                            class="text-dark fw-bold"
-                            >Dondex_Chavez</span
-                          >
-                          <div class="time">
-                            <i
-                              style="font-size: 10px"
-                              class="fa-solid fa-user text-danger"
-                            ></i>
-                            <span class="text-danger" style="font-size: 10px"
-                              >30 minutes ago</span
-                            >
-                          </div>
-                        </div>
-                        <a href="#" class="btn btn-danger btn-sm ms-auto"
-                          >Message</a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="slide">
-                  <div class="card rounded" style="width: 100%">
-                    <img
-                      style="height: 220px"
-                      src="./image/prop1.jpg"
-                      class="card-img-top img-fluid"
-                      alt=""
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title">SR 4,600</h5>
-                      <p class="card-text">
-                        8 ADRIATICO fully furnished studio
-                      </p>
-                      <div
-                        class="mt-2 d-flex flex-row justify-content-evenly align-items-center"
-                      >
-                        <img
-                          style="width: 40px"
-                          class="rounded-circle img-fluid"
-                          src="./image/profile.png"
-                          alt=""
-                        />
-                        <div class="mx-2">
-                          <span
-                            style="font-size: 12px"
-                            class="text-dark fw-bold"
-                            >Dondex_Chavez</span
-                          >
-                          <div class="time">
-                            <i
-                              style="font-size: 10px"
-                              class="fa-solid fa-user text-danger"
-                            ></i>
-                            <span class="text-danger" style="font-size: 10px"
-                              >30 minutes ago</span
-                            >
-                          </div>
-                        </div>
-                        <a href="#" class="btn btn-danger btn-sm ms-auto"
-                          >Message</a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="slide">
-                  <div class="card rounded" style="width: 100%">
-                    <img
-                      style="height: 220px"
-                      src="./image/prop1.jpg"
-                      class="card-img-top img-fluid"
-                      alt=""
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title">SR 4,600</h5>
-                      <p class="card-text">
-                        8 ADRIATICO fully furnished studio
-                      </p>
-                      <div
-                        class="mt-2 d-flex flex-row justify-content-evenly align-items-center"
-                      >
-                        <img
-                          style="width: 40px"
-                          class="rounded-circle img-fluid"
-                          src="./image/profile.png"
-                          alt=""
-                        />
-                        <div class="mx-2">
-                          <span
-                            style="font-size: 12px"
-                            class="text-dark fw-bold"
-                            >Dondex_Chavez</span
-                          >
-                          <div class="time">
-                            <i
-                              style="font-size: 10px"
-                              class="fa-solid fa-user text-danger"
-                            ></i>
-                            <span class="text-danger" style="font-size: 10px"
-                              >30 minutes ago</span
-                            >
-                          </div>
-                        </div>
-                        <a href="#" class="btn btn-danger btn-sm ms-auto"
-                          >Message</a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="slide">
-                  <div class="card rounded" style="width: 100%">
-                    <img
-                      style="height: 220px"
-                      src="./image/prop1.jpg"
-                      class="card-img-top img-fluid"
-                      alt=""
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title">SR 4,600</h5>
-                      <p class="card-text">
-                        8 ADRIATICO fully furnished studio
-                      </p>
-                      <div
-                        class="mt-2 d-flex flex-row justify-content-evenly align-items-center"
-                      >
-                        <img
-                          style="width: 40px"
-                          class="rounded-circle img-fluid"
-                          src="./image/profile.png"
-                          alt=""
-                        />
-                        <div class="mx-2">
-                          <span
-                            style="font-size: 12px"
-                            class="text-dark fw-bold"
-                            >Dondex_Chavez</span
-                          >
-                          <div class="time">
-                            <i
-                              style="font-size: 10px"
-                              class="fa-solid fa-user text-danger"
-                            ></i>
-                            <span class="text-danger" style="font-size: 10px"
-                              >30 minutes ago</span
-                            >
-                          </div>
-                        </div>
-                        <a href="#" class="btn btn-danger btn-sm ms-auto"
-                          >Message</a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <span onclick="slideLeft()" class="btn-slide"></span>
-            </div>
-          </div>
-        </div> -->
-      </div>
-    </section>
-
-    <section id="gadget-features">
-      <div class="container">
-        <div class="row my-3">
-          <hr style="border: 2px solid red" />
-          <div class="d-flex justify-content-between">
-            <h3>Gadgets</h3>
-            <div
-              style="cursor: pointer"
-              class="d-flex flex-row align-items-center text-danger"
-            >
-              <h6 class="mx-2 mt-1"><a href="./gadgets.html">view all</a></h6>
-              <i class="fa-solid fa-arrow-right"></i>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div>
-            <button class="btn btn-outline-danger active px-4">
-              Brand New
-            </button>
-            <button class="btn btn-outline-danger px-4 my-1">Secondhand</button>
-            <button class="btn btn-outline-danger px-4 my-1">Cellphone</button>
-            <button class="btn btn-outline-danger px-4 my-1">Laptop</button>
-            <button class="btn btn-outline-danger px-4 my-1">Others</button>
-          </div>
-        </div>
-        <div class="row my-4">
-          <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 my-2">
-            <div class="card rounded" style="width: 100%">
-              <img
-                style="height: 220px"
-                src="./image/mob1.jpg"
-                class="card-img-top img-fluid"
-                alt=""
-              />
-              <div class="card-body">
-                <h5 class="card-title">SR 2,200</h5>
-                <p class="card-text">8 ADRIATICO fully furnished studio</p>
-                <div
-                  class="mt-2 d-flex flex-row justify-content-evenly align-items-center"
-                >
-                  <img
-                    style="width: 50px"
-                    class="rounded-circle img-fluid"
-                    src="./image/profile.png"
-                    alt=""
-                  />
-                  <div class="mx-2">
-                    <span style="font-size: 15px" class="fw-bold"
-                      >Dondex_Chavez</span
-                    >
-                    <div>
-                      <i
-                        style="font-size: 12px"
-                        class="fa-solid fa-user text-danger"
-                      ></i>
-                      <span class="text-danger" style="font-size: 12px"
-                        >30 minutes ago</span
-                      >
-                    </div>
-                  </div>
-                  <a href="#" class="btn btn-danger ms-auto">Message</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 my-2">
-            <div class="card rounded" style="width: 100%">
-              <img
-                style="height: 220px"
-                src="./image/mob2.jpg"
-                class="card-img-top img-fluid"
-                alt=""
-              />
-              <div class="card-body">
-                <h5 class="card-title">SR 4,300</h5>
-                <p class="card-text">8 ADRIATICO fully furnished studio</p>
-                <div
-                  class="mt-2 d-flex flex-row justify-content-evenly align-items-center"
-                >
-                  <img
-                    style="width: 50px"
-                    class="rounded-circle img-fluid"
-                    src="./image/profile.png"
-                    alt=""
-                  />
-                  <div class="mx-2">
-                    <span style="font-size: 15px" class="fw-bold"
-                      >Dondex_Chavez</span
-                    >
-                    <div>
-                      <i
-                        style="font-size: 12px"
-                        class="fa-solid fa-user text-danger"
-                      ></i>
-                      <span class="text-danger" style="font-size: 12px"
-                        >30 minutes ago</span
-                      >
-                    </div>
-                  </div>
-                  <a href="#" class="btn btn-danger ms-auto">Message</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 my-2">
-            <div class="card rounded" style="width: 100%">
-              <img
-                style="height: 220px"
-                src="./image/mob3.jpg"
-                class="card-img-top img-fluid"
-                alt=""
-              />
-              <div class="card-body">
-                <h5 class="card-title">SR 7,000</h5>
-                <p class="card-text">8 ADRIATICO fully furnished studio</p>
-                <div
-                  class="mt-2 d-flex flex-row justify-content-evenly align-items-center"
-                >
-                  <img
-                    style="width: 50px"
-                    class="rounded-circle img-fluid"
-                    src="./image/profile.png"
-                    alt=""
-                  />
-                  <div class="mx-2">
-                    <span style="font-size: 15px" class="fw-bold"
-                      >Dondex_Chavez</span
-                    >
-                    <div>
-                      <i
-                        style="font-size: 12px"
-                        class="fa-solid fa-user text-danger"
-                      ></i>
-                      <span class="text-danger" style="font-size: 12px"
-                        >30 minutes ago</span
-                      >
-                    </div>
-                  </div>
-                  <a href="#" class="btn btn-danger ms-auto">Message</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 my-2">
-            <div class="card rounded" style="width: 100%">
-              <img
-                style="height: 220px"
-                src="./image/mob4.jpg"
-                class="card-img-top img-fluid"
-                alt=""
-              />
-              <div class="card-body">
-                <h5 class="card-title">SR 7,500</h5>
-                <p class="card-text">8 ADRIATICO fully furnished studio</p>
-                <div
-                  class="mt-2 d-flex flex-row justify-content-evenly align-items-center"
-                >
-                  <img
-                    style="width: 50px"
-                    class="rounded-circle img-fluid"
-                    src="./image/profile.png"
-                    alt=""
-                  />
-                  <div class="mx-2">
-                    <span style="font-size: 15px" class="fw-bold"
-                      >Dondex_Chavez</span
-                    >
-                    <div>
-                      <i
-                        style="font-size: 12px"
-                        class="fa-solid fa-user text-danger"
-                      ></i>
-                      <span class="text-danger" style="font-size: 12px"
-                        >30 minutes ago</span
-                      >
-                    </div>
-                  </div>
-                  <a href="#" class="btn btn-danger ms-auto">Message</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="car-features">
-      <div class="container">
-        <div class="row my-3">
-          <hr style="border: 2px solid red" />
-          <div class="d-flex justify-content-between">
-            <h3>Cars</h3>
-            <div
-              style="cursor: pointer"
-              class="d-flex flex-row align-items-center text-danger"
-            >
-              <h6 class="mx-2 mt-1"><a href="">view all</a></h6>
-              <i class="fa-solid fa-arrow-right"></i>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div>
-            <button class="btn btn-outline-danger active px-4">
-              Brand New
-            </button>
-            <button class="btn btn-outline-danger px-4 my-1">Secondhand</button>
-            <button class="btn btn-outline-danger px-4 my-1">Truck</button>
-            <button class="btn btn-outline-danger px-4 my-1">Bike</button>
-            <button class="btn btn-outline-danger px-4 my-1">Honda</button>
-          </div>
-        </div>
         <div class="row my-4">
           <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 my-2">
             <div class="card rounded" style="width: 100%">
@@ -1065,13 +343,329 @@
             </div>
           </div>
         </div>
-      </div>
-    </section>
 
-    <section>
-      <div class="container">
-        <div class="row my-5">
-          <img src="./image/banner1.png" class="img-fluid" alt="" />
+        <div class="row my-4">
+          <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 my-2">
+            <div class="card rounded" style="width: 100%">
+              <img
+                style="height: 220px"
+                src="./image/car1.jpg"
+                class="card-img-top img-fluid"
+                alt=""
+              />
+              <div class="card-body">
+                <h5 class="card-title">SR 1,200</h5>
+                <p class="card-text">8 ADRIATICO fully furnished studio</p>
+                <div
+                  class="mt-2 d-flex flex-row justify-content-evenly align-items-center"
+                >
+                  <img
+                    style="width: 50px"
+                    class="rounded-circle img-fluid"
+                    src="./image/profile.png"
+                    alt=""
+                  />
+                  <div class="mx-2">
+                    <span style="font-size: 15px" class="fw-bold"
+                      >Dondex_Chavez</span
+                    >
+                    <div>
+                      <i
+                        style="font-size: 12px"
+                        class="fa-solid fa-user text-danger"
+                      ></i>
+                      <span class="text-danger" style="font-size: 12px"
+                        >30 minutes ago</span
+                      >
+                    </div>
+                  </div>
+                  <a href="#" class="btn btn-danger ms-auto">Message</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 my-2">
+            <div class="card rounded" style="width: 100%">
+              <img
+                style="height: 220px"
+                src="./image/car2.jpg"
+                class="card-img-top img-fluid"
+                alt=""
+              />
+              <div class="card-body">
+                <h5 class="card-title">SR 1,200</h5>
+                <p class="card-text">8 ADRIATICO fully furnished studio</p>
+                <div
+                  class="mt-2 d-flex flex-row justify-content-evenly align-items-center"
+                >
+                  <img
+                    style="width: 50px"
+                    class="rounded-circle img-fluid"
+                    src="./image/profile.png"
+                    alt=""
+                  />
+                  <div class="mx-2">
+                    <span style="font-size: 15px" class="fw-bold"
+                      >Dondex_Chavez</span
+                    >
+                    <div>
+                      <i
+                        style="font-size: 12px"
+                        class="fa-solid fa-user text-danger"
+                      ></i>
+                      <span class="text-danger" style="font-size: 12px"
+                        >30 minutes ago</span
+                      >
+                    </div>
+                  </div>
+                  <a href="#" class="btn btn-danger ms-auto">Message</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 my-2">
+            <div class="card rounded" style="width: 100%">
+              <img
+                style="height: 220px"
+                src="./image/car3.jpg"
+                class="card-img-top img-fluid"
+                alt=""
+              />
+              <div class="card-body">
+                <h5 class="card-title">SR 4,600</h5>
+                <p class="card-text">8 ADRIATICO fully furnished studio</p>
+                <div
+                  class="mt-2 d-flex flex-row justify-content-evenly align-items-center"
+                >
+                  <img
+                    style="width: 50px"
+                    class="rounded-circle img-fluid"
+                    src="./image/profile.png"
+                    alt=""
+                  />
+                  <div class="mx-2">
+                    <span style="font-size: 15px" class="fw-bold"
+                      >Dondex_Chavez</span
+                    >
+                    <div>
+                      <i
+                        style="font-size: 12px"
+                        class="fa-solid fa-user text-danger"
+                      ></i>
+                      <span class="text-danger" style="font-size: 12px"
+                        >30 minutes ago</span
+                      >
+                    </div>
+                  </div>
+                  <a href="#" class="btn btn-danger ms-auto">Message</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 my-2">
+            <div class="card rounded" style="width: 100%">
+              <img
+                style="height: 220px"
+                src="./image/car4.jpg"
+                class="card-img-top img-fluid"
+                alt=""
+              />
+              <div class="card-body">
+                <h5 class="card-title">SR 900</h5>
+                <p class="card-text">8 ADRIATICO fully furnished studio</p>
+                <div
+                  class="mt-2 d-flex flex-row justify-content-evenly align-items-center"
+                >
+                  <img
+                    style="width: 50px"
+                    class="rounded-circle img-fluid"
+                    src="./image/profile.png"
+                    alt=""
+                  />
+                  <div class="mx-2">
+                    <span style="font-size: 15px" class="fw-bold"
+                      >Dondex_Chavez</span
+                    >
+                    <div>
+                      <i
+                        style="font-size: 12px"
+                        class="fa-solid fa-user text-danger"
+                      ></i>
+                      <span class="text-danger" style="font-size: 12px"
+                        >30 minutes ago</span
+                      >
+                    </div>
+                  </div>
+                  <a href="#" class="btn btn-danger ms-auto">Message</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row my-4">
+          <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 my-2">
+            <div class="card rounded" style="width: 100%">
+              <img
+                style="height: 220px"
+                src="./image/car1.jpg"
+                class="card-img-top img-fluid"
+                alt=""
+              />
+              <div class="card-body">
+                <h5 class="card-title">SR 1,200</h5>
+                <p class="card-text">8 ADRIATICO fully furnished studio</p>
+                <div
+                  class="mt-2 d-flex flex-row justify-content-evenly align-items-center"
+                >
+                  <img
+                    style="width: 50px"
+                    class="rounded-circle img-fluid"
+                    src="./image/profile.png"
+                    alt=""
+                  />
+                  <div class="mx-2">
+                    <span style="font-size: 15px" class="fw-bold"
+                      >Dondex_Chavez</span
+                    >
+                    <div>
+                      <i
+                        style="font-size: 12px"
+                        class="fa-solid fa-user text-danger"
+                      ></i>
+                      <span class="text-danger" style="font-size: 12px"
+                        >30 minutes ago</span
+                      >
+                    </div>
+                  </div>
+                  <a href="#" class="btn btn-danger ms-auto">Message</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 my-2">
+            <div class="card rounded" style="width: 100%">
+              <img
+                style="height: 220px"
+                src="./image/car2.jpg"
+                class="card-img-top img-fluid"
+                alt=""
+              />
+              <div class="card-body">
+                <h5 class="card-title">SR 1,200</h5>
+                <p class="card-text">8 ADRIATICO fully furnished studio</p>
+                <div
+                  class="mt-2 d-flex flex-row justify-content-evenly align-items-center"
+                >
+                  <img
+                    style="width: 50px"
+                    class="rounded-circle img-fluid"
+                    src="./image/profile.png"
+                    alt=""
+                  />
+                  <div class="mx-2">
+                    <span style="font-size: 15px" class="fw-bold"
+                      >Dondex_Chavez</span
+                    >
+                    <div>
+                      <i
+                        style="font-size: 12px"
+                        class="fa-solid fa-user text-danger"
+                      ></i>
+                      <span class="text-danger" style="font-size: 12px"
+                        >30 minutes ago</span
+                      >
+                    </div>
+                  </div>
+                  <a href="#" class="btn btn-danger ms-auto">Message</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 my-2">
+            <div class="card rounded" style="width: 100%">
+              <img
+                style="height: 220px"
+                src="./image/car3.jpg"
+                class="card-img-top img-fluid"
+                alt=""
+              />
+              <div class="card-body">
+                <h5 class="card-title">SR 4,600</h5>
+                <p class="card-text">8 ADRIATICO fully furnished studio</p>
+                <div
+                  class="mt-2 d-flex flex-row justify-content-evenly align-items-center"
+                >
+                  <img
+                    style="width: 50px"
+                    class="rounded-circle img-fluid"
+                    src="./image/profile.png"
+                    alt=""
+                  />
+                  <div class="mx-2">
+                    <span style="font-size: 15px" class="fw-bold"
+                      >Dondex_Chavez</span
+                    >
+                    <div>
+                      <i
+                        style="font-size: 12px"
+                        class="fa-solid fa-user text-danger"
+                      ></i>
+                      <span class="text-danger" style="font-size: 12px"
+                        >30 minutes ago</span
+                      >
+                    </div>
+                  </div>
+                  <a href="#" class="btn btn-danger ms-auto">Message</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 my-2">
+            <div class="card rounded" style="width: 100%">
+              <img
+                style="height: 220px"
+                src="./image/car4.jpg"
+                class="card-img-top img-fluid"
+                alt=""
+              />
+              <div class="card-body">
+                <h5 class="card-title">SR 900</h5>
+                <p class="card-text">8 ADRIATICO fully furnished studio</p>
+                <div
+                  class="mt-2 d-flex flex-row justify-content-evenly align-items-center"
+                >
+                  <img
+                    style="width: 50px"
+                    class="rounded-circle img-fluid"
+                    src="./image/profile.png"
+                    alt=""
+                  />
+                  <div class="mx-2">
+                    <span style="font-size: 15px" class="fw-bold"
+                      >Dondex_Chavez</span
+                    >
+                    <div>
+                      <i
+                        style="font-size: 12px"
+                        class="fa-solid fa-user text-danger"
+                      ></i>
+                      <span class="text-danger" style="font-size: 12px"
+                        >30 minutes ago</span
+                      >
+                    </div>
+                  </div>
+                  <a href="#" class="btn btn-danger ms-auto">Message</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
